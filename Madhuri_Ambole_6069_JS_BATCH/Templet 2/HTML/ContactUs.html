@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <!--bootstrap icon cdn-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../CSS/style.css">
+
+ 
+       
+
+  </head>
+  <body class="bg-light">
+
+
+    <main class="bg-light  ">
+      <!--Navbar Section-->
+        <nav class="navbar navbar-expand-lg  bg-light fixed-top ">
+            <div class="container-fluid navbar1">
+                <a href="#" class="navbar-brand">
+                  <img src="../Image/title.jpg" class="navbar-brand " width="50px">
+                  <img src="../Image/title1.png" class="navbar-brand" width="90px"> 
+               </a>
+              <div class="navbar-brand justify-content-center " id=navbarSupportCntent>
+                  <ul class="navbar list ">
+                      <li class="nav-item list-unstyled "> <a href="Index.html" class="nav-link text-dark mr-3 ">HOME</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link text-dark  mr-4">SHOP</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link text-dark  mr-4">PICNIC</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link text-dark  mr-4">PAGE</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link text-dark  mr-4">PROMOTION</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link text-dark  mr-4">BLOG</a></li>
+                      <li class="nav-item"> <a href="ContactUs.html" class="nav-link text-dark  mr-4">CONTACT US</a></li>
+                  </ul>
+              </div>
+
+            <div>
+             <i class="bi bi-search ml-3"> </i>
+              <i class="bi bi-cart ml-3"> </i>
+              <i class="bi bi-justify ml-3"> </i>
+            </div>
+            </div>
+        </nav>
+
+      <!--Carousel Section-->
+
+        <div class="container-fluid text-center text-white slider ">
+             
+             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-target="#carouselExampleCaptions" data-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-target="#carouselExampleCaptions" data-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-target="#carouselExampleCaptions" data-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../Image/slide1.jpg" class="d-block w-100 imgslide" alt="...">
+                    <div class="carousel-caption d-none d-md-block cap">
+                      <h2>Back to sale! ,Save up to 35% Sitewide!</h2>
+                      <h4>“Paraskiing Clothing & Accessories.” .</h4>
+                      <button class="btn btn-warning text-white btn-lg">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Image/fitness.jpg" class="d-block w-100 imgslide" alt="...">
+                    <div class="carousel-caption d-none d-md-block cap">
+                      <h2><em>"PLAY TRIBUTE WITH EVERY SERVE"</em></h2>
+                      <h4>Fitness Accessories start with 50% off</h4>
+                      <button class="btn btn-warning text-white btn-lg">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="../Image/Nanoflare-800.jpg" class="d-block w-100 imgslide" alt="...">
+                    <div class="carousel-caption d-none d-md-block cap">
+                      <h2 ><em>RAPID FIRE :"The art of speed"</em></h2>
+                      <h4>Best sale start with today </h4>
+                      <button class="btn btn-warning text-white btn-lg">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+  
+             
+            </div>
+        </div>
+    </main>
+    <section class="mb-4 mt-5 " >
+
+       
+        <div class="container">
+     
+         <div class="row ml-5" style="background-color: cadetblue;">
+             <div class="col-md-7 mb-md-0 mb-5 border">
+                 
+                 <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                
+                 <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                     a matter of hours to help you.</p>
+ 
+                 <form  onsubmit=" return validateForm()" method="POST">
+     
+                     <fieldset>
+                         
+                     <div class="row">
+                         <div class="col-md-6">
+                             <div class="md-form mb-0">
+                                 <label for="name" class="">Your name</label>
+                                 <input type="text" id="name" name="name" class="form-control" onblur="validate1()" required>
+                                 <span id="err1"></span>
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="md-form mb-0">
+                                 <label for="mobileno">Mobile No</label>
+                                <input type="number" id="mobile" class="form-control" onblur="validate2()" required>
+                                <span id="err2"></span>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-12">
+                             <label for="email" class="">Your email</label>
+                             <input type="text" id="e-id" name="email" class="form-control" onblur="validate3()" required>
+                             <span id="err3"></span>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="md-form mb-0">
+                                 <label for="subject" class="">Subject</label>
+                                 <input type="text" id="subject" name="subject" class="form-control" required>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="row">
+                         <div class="col-md-12">
+                             <div class="md-form">
+                                 <label for="message">Your message</label>
+                                 <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="text-center text-md-left mt-3 mb-4">
+                         <input type="submit" onclick="alert('done')">
+                     </div>
+                 </form>
+             </div>
+             <div class="col-md-5 text-center mt-5">
+                 <h4>Adderss</h4>
+                 <ul class="list-unstyled mb-0">
+                     <li><i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                         <p>San Francisco, CAC 941264, India</p>
+                     </li>
+     
+                     <li><i class="bi bi-telephone" style="font-size: 30px;"></i>
+                         <p>+ 01 234 567 89</p>
+                     </li>
+     
+                     <li><i class="bi bi-envelope" style="font-size: 30px;"></i>
+                         <p>contact@abcd.com</p>
+                     </li>
+                 </ul>
+             </div>
+             <!--Grid column-->
+     
+         </div>
+     </div>
+     </section>
+ 
+ 
+     
+    
+      <!--Footer Section-->
+      <div class="container-fluid">
+        <div class="bgimg mt-5 text-center text-white">
+            <img src="../Image/photo.jpg" class="rounded-circle mt-5" width="100px" height="100px">
+            <p ><em>"No matter how experienced yor are,mistake are an invitable part of software development<br>
+             But we can learn to repair them and this is an what we will be looking at in this age."
+              </em></p>
+             <h6>Madhuri Ambole</h6>
+            <small>Web Designer</small>
+        
+            <div class="row mt-3">
+                    <div class="col-lg-3 col-md-3 p-2 col-sm 2 ml-5  text-center bg-danger"><i class="bi bi-facebook"></i>Facebook</div>
+                    <div class="col-lg-3 col-md-2 p-2 col-sm-2 text-center bg-info"><i class="bi bi-twitter"></i>Twitter</div>
+                    <div class="col-lg-2 col-md-2 p-2 col-sm-2 text-center bg-warning"><i class="bi bi-instagram"></i>Instagram</div>
+                    <div class="col-lg-3 col-md-2 p-2 col-sm-2  text-center bg-info"><i class="bi bi-telegram"></i>Telegram</div>
+                   
+            </div>
+
+            <div class="logo mt-5">
+                <img src="../Image/title3.jpg" width="50px">
+                <p><em>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit ad, aliquid aperiam porro beatae optio accusantium dolore <br/>incidunt sunt expedita eaque nihil assumenda deserunt laborum vero, adipisci mollitia quos."</em></p>
+                
+            </div>
+            <i class="bi bi-three-dots" style="font-size: 23px;"></i>
+            <div class="sponser text-center">
+               
+                    <img src="../Image/visa.png" width="50px" height="30px">
+                    <img src="../Image/discover.png"  width="50px" height="30px">
+                    <img src="../Image/paypal.png"  width="50px" height="30px">
+                    <img src="../Image/visa.png"  width="50px" height="30px">
+                    <img src="../Image/discover.png"  width="50px" height="30px">
+                    <img src="../Image/paypal.png"  width="50px" height="30px" >
+            </div>
+        </div>
+        <div class="text-center bg-light p-3">
+            @copyright 2020 All Right Reserved
+        </div>
+    </div>
+    <script src="../JS/validate.JS"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
